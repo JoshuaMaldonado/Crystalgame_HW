@@ -1,0 +1,164 @@
+body {
+    background-image: url(../images/minebackground.jpg);
+    background-repeat: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 50%;
+}
+
+.crystal-header {
+    float: left;
+    margin-top: 8px;
+    margin-left: 8px;
+    padding: 10px;
+    background-color: rgb(241, 96, 80);
+    overflow: hidden;
+}
+
+.main-container {
+    float: left;
+    margin-top: 15px;
+    margin-left: 8px;
+    clear: both;
+    background-color: tan;
+}
+
+#headerC {
+    color: white;
+    font-size: 30px;
+    padding: 3px;
+}
+ul {
+    margin-top: 10px;
+    color: aquamarine;
+    padding: 10px 8px 50px 8px;
+}
+
+.rules {
+    color: rgb(20, 102, 20);
+    list-style-type: none;
+    line-height: 1.6;
+    margin-bottom: 5px;
+    padding-bottom: 8px;
+}
+
+.second-container {
+    float: left;
+    margin-left: 8px;
+    clear: both;
+}
+
+section {
+    float: left;
+    margin-left: 8px;
+    clear: both;
+    overflow: hidden;
+    margin-top: 10px;
+    width: 75%;
+}
+
+#totalScore {
+    float: left;
+    clear: both;
+    margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+    padding: 4px 0 4px 4px;
+    width:246px;
+    background-color: teal;
+    color: white;
+}
+
+#score {
+    float: left;
+    clear: both;
+    margin-left: 8px;
+    width: 246px;
+    height: 100px;
+    background-color: greenyellow;
+    color: white;  
+}
+
+#win-loss {
+    background-color: orange;
+    float: left;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 8px;
+
+}
+
+#wins {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    padding: 0 20px 3px 3px;
+}
+
+#losses {
+    color: rgb(255, 255, 0);
+    text-align: center;
+    padding: 0 20px 3px 3px;
+}
+
+#computerNumber {
+    background-color: rgb(10, 221, 63);
+    color: rgb(77, 7, 50);
+    width: 246px;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: initial;
+    float: left;
+}
+
+#cNumber {
+    background-color: rgb(255, 0, 127);
+    color: rgb(77, 7, 50);
+    width: 246px;
+    height: 100px;
+    text-align: initial;
+    float: left;
+}
+
+.btn1 {
+    background: transparent;
+    background-image: url("../images/NewCrystal-Blue.png");
+    background-position: center;
+    width: 80px;
+    height: 85px;
+    display: inline-block;
+}
+
+.btn2 {
+    background: transparent;
+    background-image: url("../images/NewCrystal-Purple.png");
+    background-position: center;
+    width: 80px;
+    height: 85px;
+    display: inline-block;
+}
+
+.btn3 {
+    background: transparent;
+    background-image: url("../images/NewCrystal-Red.png");
+    background-position: center;
+    width: 80px;
+    height: 85px;
+    display: inline-block;
+}
+
+.btn4 {
+    background: transparent;
+    background-image: url("../images/NewCrystal-Yellow.png");
+    background-position: center;
+    width: 80px;
+    height: 85px;
+    display: inline-block;
+}
